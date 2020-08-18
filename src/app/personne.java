@@ -8,6 +8,10 @@ public class personne {
     private String sexe;
 
     personne() {
+        nom="reml";
+        prenom="med";
+        sexe="f";
+        age=35;
     }
 
     personne(String nom, String prenom) {
@@ -67,8 +71,8 @@ public class personne {
         this.sexe = sexe;
     }
      void tostring(){
-         System.out.println("je m'appelle "+getNom()+" "+getPrenom()+" j'ai "+getAge()+" ans Le sexe: "+getSexe());
-        System.out.println("je m'appelle "+nom+" "+prenom+" j' ai "+age+" ans Le sexe: "+sexe);
+           System.out.println("je m'appelle "+getNom()+" "+getPrenom()+" j'ai "+getAge()+" ans Le sexe: "+getSexe());
+        //System.out.println("je m'appelle "+nom+" "+prenom+" j' ai "+age+" ans Le sexe: "+sexe);
     }
 
 
