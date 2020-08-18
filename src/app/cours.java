@@ -1,4 +1,5 @@
 package app;
+
 //Q1-1
 public class cours {
     String nom;
@@ -27,8 +28,8 @@ public class cours {
 
     }
 
-    //Q1-2
-    // GET  accesseurs
+    // Q1-2
+    // GET accesseurs
     String getNom() {
         return nom;
     }
@@ -45,7 +46,7 @@ public class cours {
         return hTP;
     }
 
-    // SET  mutateurs
+    // SET mutateurs
     void getNom(String nom) {
         this.nom = nom;
     }
@@ -61,6 +62,5 @@ public class cours {
     void getHtp(int hTP) {
         this.hTP = hTP;
     }
-    
 
 }
